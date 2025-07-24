@@ -20,6 +20,9 @@ p{
 main{
     max-width:800px;
 }
+h1{
+    color: gray;
+}
 aside{
     width: 20rem;
     margin: 1rem;
