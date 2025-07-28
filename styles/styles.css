@@ -66,10 +66,13 @@ main img{
     /* after the paragraph */
     float: right;
 }
+aside{
+    position: relative;
+}
 
 aside h2{
     position: absolute;
-    top: 430px;
+    top: 100px;
     left: 150px;
     color: aqua;
 }
