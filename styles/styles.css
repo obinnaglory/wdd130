@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     background-color: darkblue;
     padding: 10px
@@ -43,4 +48,28 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* class selectors */
+ .box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0/10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside{
+    width: 20rem;
+    text-align: center;
+}
+main img{
+    /* after the paragraph */
+    float: right;
+}
+
+aside h2{
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    color: aqua;
 }
