@@ -1,0 +1,60 @@
+:root{
+    --primary-colour: #8C9FAA;
+    --secondary-colour: #733634;
+    --accent1-colour: #00001E;
+    --accent2-color: #970000;
+    --heading-font: "playfair-display", sans-serif;
+    --body-font:"roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-colour);
+}
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-colour);
+}
+nav, p, section, article {
+    margin:16px;
+    padding: 8px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-colour);
+    color: #fff;  /* white text makes sure there's difference between the text and the background*/
+}
+article {
+    width: 100%;
+    padding: 16px;
+    position: auto;
+}
+
+.hero article img{
+    float: right;
+    width:125px;
+}
