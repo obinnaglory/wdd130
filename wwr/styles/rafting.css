@@ -51,7 +51,7 @@ h1 {
 article {
     width: 100%;
     padding: 16px;
-    position: auto;
+    position: relative;
 }
 
 .hero article img{
