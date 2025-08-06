@@ -6,7 +6,10 @@
   <title>Contact Whitewater Rafting</title>
   <meta name="author" content="Chinaza Glory Nwanyichukwu Obinna" />
   <meta name="description" content="Get in touch with our whitewater rafting team for inquiries, bookings, and more. We are here to help you plan your next adventure!" />
-  <link href="contact.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/rafting.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
   <header>
@@ -21,34 +24,42 @@
   </header>
 
   <main>
+    <div class="image">
+      <img src="images/contact4.jpg" alt="fun-filled">
+    <div class="imges of fun">
+      <img src="images/contact5.jpg" alt="loved it">
     <section class="contact-info">
       <h2>Contact Information</h2>
+      <div class="image of contact">
+            <img src="images/contact2.webp" alt="find us">
       <p><strong>Address:</strong> whitewaterrafting Abuja.</p>
       <p><strong>Phone:</strong> (+234) 90118340269</p>
       <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15750.602424012894!2d7.380532359929496!3d9.275478450812905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e6157ce3eeda9%3A0x32af1c368be32dfc!2sFederal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1754399518634!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15750.602424012894!2d7.380532359929496!3d9.275478450812905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e6157ce3eeda9%3A0x32af1c368be32dfc!2sFederal%20Capital%20Territory%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1754399518634!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <section class="employees">
-      <h2>Meet Our Team</h2>
-      <div class="employee-profiles">
-        <figure>
-          <img src="images/contact1.jpg" alt="Emmanuella Tour Guide">
-          <figcaption>Obinna Emmanuella - Tour Guide</figcaption>
-        </figure>
-        <figure>
-          <img src="images/contact2.jpg" alt="Jake - Safety Coordinator">
-          <figcaption>Obinna Gift- Safety Coordinator</figcaption>
-        </figure>
-        <figure>
-          <img src="images/contact3.jpg" alt="Sara - Booking Agent">
-          <figcaption>Obinna Anthonia Chinasa- Booking Agent</figcaption>
-        </figure>
-      </div>
+    <section class="employee-profiles">
+      <figure>
+        <link href="wwr/styles/rafting.css" rel="stylesheet" />
+        <img src="images/emmanuella.jpg" alt="Obinna Emmanuella">
+        <figcaption>Obinna Emmanuella<br><span>Tour Guide</span></figcaption>
+      </figure>
+      <figure>
+        <img src="images/gift.jpg" alt="Obinna Gift">
+        <figcaption>Obinna Gift<br><span>Safety Coordinator</span></figcaption>
+      </figure>
+      <figure>
+        <img src="images/anthonia.jpg" alt="Obinna Anthonia Chinasa">
+        <figcaption>Obinna Anthonia Chinasa<br><span>Booking Agent</span></figcaption>
+    </figure>
     </section>
+
 
     <section class="contact-form">
       <h2>Send Us a Message</h2>
+       <div class="message us">
+        <img src="images/contact3.webp">
+       </div>
       <form action="submit-form.html" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="user_name" required />
@@ -57,10 +68,18 @@
         <input type="email" id="email" name="user_email" required />
 
         <fieldset>
-          <legend>Purpose of Message</legend>
-          <label><input type="radio" name="purpose" value="general" required /> General Inquiry</label><br />
-          <label><input type="radio" name="purpose" value="reservation" /> Reservation Question</label><br />
-          <label><input type="radio" name="purpose" value="suggestion" /> Website Suggestion</label>
+          <input type="radio" id="general" name="purpose" value="general" required />
+          <label for="general">General Inquiry</label>
+
+          <input type="radio" id="reservation" name="purpose" value="reservation" />
+          <label for="reservation">Reservation Question</label>
+
+          <input type="radio" id="suggestion" name="purpose" value="suggestion" />
+          <label for="suggestion">Website Suggestion</label>
+
+          <input type="checkbox" id="subscribe" name="subscribe" />
+          <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
         </fieldset>
 
         <label for="message">Message:</label>
@@ -77,7 +96,16 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Whitewater Rafting Co.</p>
+    <p>©2025| Whitewater Rafting Website | Chinaza Glory Obinna N.</p>
+            <nav class="socialmedia">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                  <img src="images/facebook.webp" alt="facebook logo">
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                  <img src="images/look.webp" alt="instagram logo">
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                  <img src="images/twitter.webp" alt="twitter logo">
+            </nav>
+
     <p><a href="https://app.moqups.com/YcWFidjtFy5L4ZMPMf9YD76xhHDW0adM/view/page/a78ffbc5d">Contact Us Wireframe</a></p>
   </footer>
 </body>
