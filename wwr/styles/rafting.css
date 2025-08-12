@@ -219,3 +219,83 @@ footer .social a img {
   width: 30px;
   margin-left: 1rem;
 }
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.trip-descriptions .grid-item {
+  text-align: center;
+}
+
+.trip-descriptions img {
+  width: 100%;
+  border-radius: 8px;
+}
+.grid-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.grid-info .grid-item {
+  text-align: center;
+}
+
+.grid-info img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.grid-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--accent1-colour);
+}
+.grid-info {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.grid-info h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-colour);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.grid-item h3 {
+  color: var(--secondary-colour);
+  margin-bottom: 0.5rem;
+}
+
+.grid-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--accent1-colour);
+}
