@@ -199,14 +199,14 @@ iframe {
 }
 
 .contact-form button {
-  background-color: #007BFF;
+  background-color: #ccc;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #0056b3;
+  background-color: #ccc;
 }
 footer {
   display: flex;
